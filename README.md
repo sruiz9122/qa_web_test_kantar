@@ -3,7 +3,7 @@
 This project contains the automation of the web page: https://amrs-dev.engkantar.com
 
 ## installation
-** Pre-Requisites: ** To install the project you must Have: Eclipse, Java JDK, Maven, Cucumber and Selenium installed.
+**Pre-Requisites:** To install the project you must Have: Eclipse, Java JDK, Maven, Cucumber and Selenium installed.
 1. You download the project, Open Eclipse you go to "file / new / project / maven / maven project" and select the downloaded files.
 2. This project is verified in the chorme browser. therefore you must download the "chromedriver.exe" driver according to the version of the browser you use. You can download it at the following URL "https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver"
 3. This file must be saved in the following path: "\cucumberTestQA\src\test\resources\drivers"
