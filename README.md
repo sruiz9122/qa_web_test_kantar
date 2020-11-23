@@ -11,6 +11,14 @@ This project contains the automation of the web page: https://amrs-dev.engkantar
 ### Class TestRunner.java
 This file allows you to call the test scenario you want by modifying the TAG field. This class is located in the path: "\cucumberTestQA\src\test\java\StepDefinitions\TestRunner.java".
 
+### Class CsvRead.java
+In line 12, the path where the file is downloaded must be updated, along with the name of the file that is downloaded that day. This class is located in the path:
+"\cucumberTestQA\src\test\java\cvsRead\CsvRead.java"
+
+´´´
+  bufferLectura = new BufferedReader(new FileReader("C:/Users/ruib04/Downloads/country-2020-11-23.csv"));
+´´´
+
 ### files ".feature"
 In the route "\cucumberTestQA\src\test\resources\Features" We have the files that present the required execution scenarios.
 
