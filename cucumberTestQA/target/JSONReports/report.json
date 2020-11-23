@@ -1,0 +1,159 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-23T04:06:41.741Z",
+        "line": 8,
+        "name": "Into Countries and create a country",
+        "description": "",
+        "id": "feature-to-test-create-country-functionality;into-countries-and-create-a-country",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12904000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open the site and log in username \"testqa\" and password \"#testqa@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testqa\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"#testqa@\"",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinitions.CreateCountrySteps.open_the_site_and_log_in_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2162000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Into Home-Location-Countries",
+            "match": {
+              "location": "StepDefinitions.CreateCountrySteps.into_home_location_countries()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2091000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click add button",
+            "match": {
+              "location": "StepDefinitions.CreateCountrySteps.click_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2184000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click edit button",
+            "match": {
+              "location": "StepDefinitions.CreateCountrySteps.click_edit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2055000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Insert Code \"31\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"31\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.CreateCountrySteps.insert_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2455000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Insert Name \"Colombia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Colombia\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.CreateCountrySteps.insert_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click save button",
+            "match": {
+              "location": "StepDefinitions.CreateCountrySteps.click_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2946000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User create a country",
+            "match": {
+              "location": "StepDefinitions.CreateCountrySteps.user_create_a_country()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegresionCreate"
+          },
+          {
+            "name": "@CreateCountry"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test create country functionality",
+    "description": "",
+    "id": "feature-to-test-create-country-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/createcountry.feature",
+    "tags": [
+      {
+        "name": "@RegresionCreate",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

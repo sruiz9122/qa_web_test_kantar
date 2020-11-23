@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.363">
+<testcase classname="Feature to test create country functionality" name="Into Countries and create a country" time="28.99">
+<system-out><![CDATA[Given Open the site and log in username "testqa" and password "#testqa@"....passed
+When Into Home-Location-Countries...........................................passed
+And Click add button........................................................passed
+And Click edit button.......................................................passed
+And Insert Code "31"........................................................passed
+And Insert Name "Colombia"..................................................passed
+And Click save button.......................................................passed
+Then User create a country..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
